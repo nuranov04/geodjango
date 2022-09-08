@@ -9,4 +9,3 @@ class WorldAdmin(OSMGeoAdmin):
     list_display = ('name', 'pop2005', 'fips',)
     list_filter = ('name', 'pop2005', 'fips',)
     search_fields = ('name', 'fips', 'pop2005',)
-    list_per_page = 20
